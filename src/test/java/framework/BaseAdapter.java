@@ -3,10 +3,6 @@ package framework;
 import com.google.gson.Gson;
 import com.google.gson.JsonParser;
 import io.restassured.http.ContentType;
-import jsonplaceholder.pojo.UsersPojo;
-
-import java.util.Arrays;
-
 import static io.restassured.RestAssured.given;
 
 public class BaseAdapter {

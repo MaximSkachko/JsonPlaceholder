@@ -6,7 +6,6 @@ import io.qameta.allure.Step;
 import jsonplaceholder.pojo.PostsPojo;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
-
 import static com.google.gson.JsonParser.parseString;
 
 public class PostsAdapter extends BaseAdapter {
@@ -62,5 +61,3 @@ public class PostsAdapter extends BaseAdapter {
         softAssert.assertAll();
     }
 }
-//@Serialized Name
-
